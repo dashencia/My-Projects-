@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teddy Bear</title>
+    <link rel="stylesheet" href="/Projects/week1/styles/normalize.css" />
+
+    <style>
+      header,
+      footer {
+        flex: 0 0 content;
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+      }
+
+      body {
+        display: flex;
+        flex-flow: column;
+        min-height: 100vh;
+        background-color: rgb(160, 135, 146);
+      }
+
+      nav {
+        width: 20vh;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      aside {
+        width: 20vh;
+      }
+
+      section {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Smartest Teddy Bear in the world</h1>
+    <header class="header">Why this is the best gift for your family</header>
+
+    <main class="main">
+      <nav class="nav">Menu</nav>
+      <section class="section">Articles</section>
+      <aside class="aside">Latest updates</aside>
+    </main>
+
+    <footer class="footer">Reviews</footer>
+    <footer class="footer">Support</footer>
+    <footer class="footer">FAQ</footer>
+    <footer class="footer">Contact</footer>
+  </body>
+</html>

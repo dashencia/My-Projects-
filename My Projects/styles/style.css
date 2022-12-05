@@ -1,0 +1,74 @@
+li {
+  display: inline-block;
+  margin-right: 16px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  margin: 0px;
+  top: 80px;
+}
+
+.logotip {
+  font-family: Inter;
+  font-size: 126px;
+  font-weight: 700;
+  line-height: 152px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f3ed57;
+  position: relative;
+  margin: 0px;
+  top: 60px;
+}
+
+.body {
+  background-image: url("image106.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  position: relative;
+  left: 0px;
+  right: 10px;
+  top: -280px;
+  margin: 0px;
+}
+
+.link {
+  color: #ffffff;
+  position: relative;
+}
+
+#booking {
+  border: #ffffff;
+  color: #ffffff;
+}
+
+footer {
+  padding: 10px 10px;
+  background: rgb(148, 95, 222, 0.5);
+  color: white;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  bottom: -485px;
+}
+
+#companyname {
+  color: rgb(11, 11, 11);
+}

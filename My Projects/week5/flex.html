@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+            p,
+            header,
+            main,
+            nav,
+            section,
+            aside,
+            footer {
+              border: 1px solid red;
+            }
+
+         /*    .flexcontainer {
+              display: flex;
+              flex-direction: row; /* либо row-reverse or colomn-reverse */
+              flex-wrap: wrap; /* для переноса информации в столбце */
+              align-items: stretch; /* flex-start, flex-end, center */
+              border: 1px solid blue;
+              height: 300px; }
+
+            */
+
+      .flexcontainer {
+          border: 1px solid blue;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 30vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flexbox</h1>
+    <div class="flexcontainer">
+      <p class="flexp">Paragraph 1</p>
+      <p class="flexp">Paragraph 1</p>
+      <p class="flexp">Paragraph 1</p>
+      <p class="flexp">Paragraph 1</p>
+    </div>
+  </body>
+</html>

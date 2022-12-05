@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>
+      <span style="color: red"> Страница-опросник для обладателей котиков</span>
+    </h1>
+    <form action="script.php" method="POST"></form>
+    <div>
+      <fieldset>
+        <legend>Имя</legend>
+        <div>
+          <label for="nickname">Кличка питомца</label>
+          <input type="text" id="nickname" />
+        </div>
+
+        <div>
+          <label for="name">Имя владельца</label>
+          <input type="text" id="name" />
+        </div>
+
+        <div>
+          <label for="contacts">Контакты владельца</label>
+          <input type="text" id="contacts" />
+        </div>
+      </fieldset>
+    </div>
+
+    <div>
+      <h2>Выберите породу</h2>
+      <select>
+        <option value="1">Метис</option>
+        <option value="2">Мейн-кун</option>
+        <option value="3">Канадский сфинкс</option>
+      </select>
+    </div>
+
+    <div>
+      <h2>Укажите чем питается</h2>
+      Натуральный корм <input type="checkbox" /> <br />
+      Сухой корм <input type="checkbox" /> <br />
+      Влажный корм <input type="checkbox" />
+    </div>
+
+    <div>
+      <h2>Укажите пол питомца</h2>
+      Самец<input type="radio" name="sex" /> <br />
+      Самка<input type="radio" name="sex" />
+    </div>
+    <br />
+    <div>
+      <label for="comments">Комментарий владельца:</label> <br />
+      <div>
+        <br />
+        <textarea name="comments" id="comments" rows="5" cols="20">
+Дополнительную информацию можно оставить здесь</textarea
+        >
+      </div>
+    </div>
+    <div>
+      <p>Можете добавить фотографию питомца <button>Выбор файла</button></p>
+    </div>
+
+    <div>
+      <button>Сохранить</button>
+    </div>
+  </body>
+</html>
